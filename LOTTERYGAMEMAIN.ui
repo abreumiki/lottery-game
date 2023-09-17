@@ -1,0 +1,5165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>896</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="wmainmenu" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="mbg">
+     <property name="geometry">
+      <rect>
+       <x>-40</x>
+       <y>-10</y>
+       <width>971</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/layout1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblogo">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>90</y>
+       <width>231</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/LOGOLG.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frnamewallet">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>80</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lblwallet">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 211, 0);
+border-color: rgb(0, 211, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="picwallet">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+border-color: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/walleticon.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="picuser">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+border-color: none;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>playericon.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblpname">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 211, 0);
+border-color: rgb(0, 211, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frgames">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>190</y>
+       <width>191</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pbsuperlottery">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+   
+	background-color: rgb(0, 248, 32);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(143, 255, 39);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 248, 32);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Super Lottery</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbhorserace">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+   
+	background-color: rgb(0, 248, 32);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(143, 255, 39);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 248, 32);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Horse Race</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbphwar">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+   
+	background-color: rgb(0, 248, 32);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(143, 255, 39);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 248, 32);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>PH War</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbultralottery">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+   
+	background-color: rgb(0, 248, 32);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(143, 255, 39);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 248, 32);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Ultra Lottery</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="lbgamemode">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>170</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+     </property>
+     <property name="text">
+      <string> GAME MODE</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frbag">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>190</y>
+       <width>191</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbbag">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>10</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>BAG</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblitem1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/panda.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblitem3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/koala.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblitem5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/puppy.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblitem2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>40</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/pig.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblitem4">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>110</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/cat.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblitem6">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>180</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 0px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/bear.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pbshop">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>470</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+	background-color: rgb(255, 199, 0);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(255, 234, 3);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(255, 199, 0);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Shop</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbexit">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>470</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+	background-color: rgb(200, 11, 4);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(241, 12, 4);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(200, 11, 4);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frshop">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>190</y>
+       <width>531</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border: 1px solid green;
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbshop">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>SHOP</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblselecttoypic">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>40</y>
+        <width>261</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/black.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frtoys">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>171</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Small Fonts</family>
+         <pointsize>6</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(0, 248, 32);</string>
+       </property>
+       <property name="text">
+        <string> PANDA          P150</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Small Fonts</family>
+         <pointsize>6</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(0, 248, 32);</string>
+       </property>
+       <property name="text">
+        <string> PIG                P150</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Small Fonts</family>
+         <pointsize>6</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(0, 248, 32);</string>
+       </property>
+       <property name="text">
+        <string> KOALA         P200</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Small Fonts</family>
+         <pointsize>6</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(0, 248, 32);</string>
+       </property>
+       <property name="text">
+        <string> KITTEN         P200</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Small Fonts</family>
+         <pointsize>6</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(0, 248, 32);</string>
+       </property>
+       <property name="text">
+        <string> PUPPY         P250</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Small Fonts</family>
+         <pointsize>6</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(0, 248, 32);</string>
+       </property>
+       <property name="text">
+        <string> BEAR            P250</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pbshop_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>270</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(255, 85, 0);
+}
+
+QPushButton:hover
+{
+background-color: rgb(255, 158, 1);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(255, 85, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Buy</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbshop_3">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>270</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(0, 254, 0);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Go Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="lgpic">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>220</y>
+       <width>311</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/LG1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblnomoney">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>130</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(200, 11, 4);
+</string>
+     </property>
+     <property name="text">
+      <string>YOU HAVE 0 MONEY LEFT!</string>
+     </property>
+    </widget>
+    <zorder>mbg</zorder>
+    <zorder>lblogo</zorder>
+    <zorder>frnamewallet</zorder>
+    <zorder>frgames</zorder>
+    <zorder>lbgamemode</zorder>
+    <zorder>frbag</zorder>
+    <zorder>pbshop</zorder>
+    <zorder>pbexit</zorder>
+    <zorder>lgpic</zorder>
+    <zorder>frshop</zorder>
+    <zorder>lblnomoney</zorder>
+   </widget>
+   <widget class="QWidget" name="wphwar" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="lbmainbg">
+     <property name="geometry">
+      <rect>
+       <x>-160</x>
+       <y>-80</y>
+       <width>1201</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/shop.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbiconwar">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>101</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/swords.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbinputhere_2">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>80</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+     </property>
+     <property name="text">
+      <string>Game Rules</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbinputhere_4">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>140</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+     </property>
+     <property name="text">
+      <string>⚔️ Distribute 100 Filipinos to Manila, Cebu and Davao</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbinputhere_3">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>110</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+     </property>
+     <property name="text">
+      <string>⚔️ Help the Filipinos win against the Spaniards!</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frphgame">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>190</y>
+       <width>521</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbinputhere">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>Input Here ⚔️</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbfight">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>80</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+   
+	background-color: rgb(0, 248, 32);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(143, 255, 39);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 248, 32);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>Fight!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbfilleft">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>301</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>9</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(200, 11, 4);</string>
+      </property>
+      <property name="text">
+       <string>Filipinos left</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbguess1ph">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>30</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>80</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>90</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>100</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="cbguess2ph">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>80</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>30</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>80</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>90</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>100</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="cbguess3ph">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>80</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>30</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>80</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>90</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>100</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="mnl">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>8</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: none;</string>
+      </property>
+      <property name="text">
+       <string>Manila</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cebu">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>50</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>8</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: none;</string>
+      </property>
+      <property name="text">
+       <string>Cebu</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="davao">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>50</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>8</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: none;</string>
+      </property>
+      <property name="text">
+       <string>Davao</string>
+      </property>
+     </widget>
+     <zorder>cbguess3ph</zorder>
+     <zorder>lbfilleft</zorder>
+     <zorder>lbinputhere</zorder>
+     <zorder>pbfight</zorder>
+     <zorder>cbguess2ph</zorder>
+     <zorder>davao</zorder>
+     <zorder>mnl</zorder>
+     <zorder>cebu</zorder>
+     <zorder>cbguess1ph</zorder>
+    </widget>
+    <widget class="QFrame" name="frwalletph">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>190</y>
+       <width>171</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbprizeph">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>  WALLET</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdwalletph">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>151</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frresult">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>360</y>
+       <width>371</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lblnumofspaniards">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 211, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblwherespaniadsland">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 211, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbllandedat">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>Spaniards landed at</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblwinorlose">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 211, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frprice">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>360</y>
+       <width>141</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbpriceph">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string> PRIZE</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdprizeph">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pbplayagainph">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>370</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background-color: rgb(255, 199, 0);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(255, 236, 20);
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(255, 199, 0);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>play again</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbexitph">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>430</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+	background-color: rgb(200, 11, 4);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(241, 12, 4);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(200, 11, 4);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="secretplaceph">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>530</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>7</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(109, 109, 109);
+border-color: none;</string>
+     </property>
+     <property name="text">
+      <string>Davao</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="secretnumph">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>550</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>7</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(109, 109, 109);
+border-color: none;</string>
+     </property>
+     <property name="text">
+      <string>Davao</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="hwidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="lbmainbg_2">
+     <property name="geometry">
+      <rect>
+       <x>-100</x>
+       <y>-30</y>
+       <width>1091</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/shop.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>10</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>Game Rules:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>30</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>🍀 Bet for a HORSE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>60</y>
+       <width>491</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>🍀 Win the jackpot prize if your horse wins the race!</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frprizehorse">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>140</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbprice">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>PRIZE</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdprizehorse">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frhorsewallet">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>140</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbjackpot_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>WALLET</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdwallethorse">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pbpagainhorse">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>140</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton
+{
+	background-color: rgb(255, 199, 0);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(243, 255, 5);
+	
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(255, 199, 0);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>play again</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbexithorse">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>140</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+	background-color: rgb(200, 11, 4);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(241, 12, 4);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(200, 11, 4);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frhorseselection">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>210</y>
+       <width>511</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QRadioButton" name="rbachilles">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>ACHILLES</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rbbullseye">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>BULLSEYE</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rbgulliver">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>GULLIVER</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rbmaximus">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>20</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>MAXIMUS</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rbpetra">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>50</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>PETRA</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rbrambo">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>80</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>RAMBO</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbenterhorse">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>40</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(115, 255, 0);
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(0, 211, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>Enter</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="lblselecthorsepic">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>210</y>
+       <width>141</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/horseicongreen.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frwinresulthorse">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>370</y>
+       <width>501</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lblnamehorsewin">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>20</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblwontherace">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>70</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>WON THE RACE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblwinorlose_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="lblhorsewipic">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>370</y>
+       <width>141</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/horseicongreen.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="secret">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>530</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(111, 111, 111);</string>
+     </property>
+     <property name="text">
+      <string>secret</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frracing">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>80</y>
+       <width>761</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(2, 2, 2);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="takbuhan">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>30</y>
+        <width>441</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbseeresultshorse">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>410</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(115, 255, 0);
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(0, 211, 0);
+}</string>
+      </property>
+      <property name="text">
+       <string>See result ➡️</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wsuperlottery" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="LBLSBG">
+     <property name="geometry">
+      <rect>
+       <x>-120</x>
+       <y>-30</y>
+       <width>1131</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/shop.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>70</y>
+       <width>591</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>🍀 Win the jackpot prize if your guesses are correct!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>40</y>
+       <width>541</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>🍀 Choose TWO numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>10</y>
+       <width>541</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>Game Rules:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbicon">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/supericongreen.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="FRULTRAGAME">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>551</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbguesshere">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>10</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>Guess here ⬇️</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblotresult">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>200</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>LOTTERY RESULT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBSGO">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>90</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(255, 199, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	background-color: rgb(243, 255, 5);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	background-color: rgb(255, 199, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>GO!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS1">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>60</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS3">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>60</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS4">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>60</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS5">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>60</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS7">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS8">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS9">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBS10">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>130</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SBALL1">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>240</y>
+        <width>131</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/ball.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="LCDSRES1super">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>270</y>
+        <width>101</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: none;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SBALL2">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>240</y>
+        <width>131</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/ball.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="LCDSRES2super">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>270</y>
+        <width>101</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: none;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frwalletsuper">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>140</y>
+       <width>141</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbjackpot_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string> WALLET</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdwalletsuper">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frjackpotsuper">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>250</y>
+       <width>141</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbjackpot">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>JACKPOT</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdjackpotsuper">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="LBLSUPERWINORLOSE">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>360</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 199, 0);
+border: 1px solid green;</string>
+     </property>
+     <property name="text">
+      <string>YOU LOSE!</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBSPAGAIN">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>420</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton
+{
+	background-color: rgb(255, 199, 0);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(243, 255, 5);
+	
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(255, 199, 0);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>play again</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBSEXIT">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>480</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+	background-color: rgb(200, 11, 4);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(241, 12, 4);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(200, 11, 4);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>exit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="secretsuper">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>550</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(111, 111, 111);</string>
+     </property>
+     <property name="text">
+      <string>secret</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wultra" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>901</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="LBLUBG">
+     <property name="geometry">
+      <rect>
+       <x>-140</x>
+       <y>-30</y>
+       <width>1171</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/shop.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>10</y>
+       <width>541</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>Game Rules:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>30</y>
+       <width>541</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>🍀 Choose THREE numbers</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>50</y>
+       <width>591</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>🍀 Win the jackpot prize if your guesses are correct!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbicon_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>91</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../lotterygamez/ultraicongreen.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>70</y>
+       <width>591</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 248, 32);</string>
+     </property>
+     <property name="text">
+      <string>🍀 Enjoy the game!</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="FRULTRAGAME_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>130</y>
+       <width>511</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbguesshere_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>10</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>Guess here ⬇️</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblotresult_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>230</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string>LOTTERY RESULT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBUGO">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>110</y>
+        <width>101</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(255, 199, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	background-color: rgb(243, 255, 5);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	background-color: rgb(255, 199, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>GO!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="UBALL1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>280</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/ball.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>60</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>60</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU4">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>60</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU5">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>60</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU7">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>120</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU8">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>120</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU9">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>120</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU10">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>120</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="LCDURESULT1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>310</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: none;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU11">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>11</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU12">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>180</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU13">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>180</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>13</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU14">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>180</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>14</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBU15">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>180</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    border-radius: 10px;
+	background-color: rgb(0, 211, 0);
+}
+
+QPushButton:hover
+{
+    border-radius: 10px;
+	
+	background-color: rgb(115, 255, 0);
+	
+}
+
+QPushButton:pressed
+{
+    border-radius: 10px;
+	
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+      </property>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="UBALL2">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>280</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/ball.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="LCDURESULT2">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>310</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: none;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="UBALL3">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>280</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../lotterygamez/ball.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="LCDURESULT3">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>310</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: none;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRRULTRAWALLET">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>130</y>
+       <width>141</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbjackpot_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string> WALLET</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="LCDWALLETULTRA">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRULTRAJACKPOT">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>240</y>
+       <width>141</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid green;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="lbjackpot_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>OCR A Extended</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 248, 32);
+border-color: rgb(0, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>JACKPOT</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="LCDULTRAJACKPOT">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="LBLULTRAWINORLOSE_2">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>350</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 199, 0);
+border: 1px solid green;</string>
+     </property>
+     <property name="text">
+      <string>YOU LOSE!</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBUPAGAIN">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>420</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton
+{
+	background-color: rgb(255, 199, 0);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(243, 255, 5);
+	
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(255, 199, 0);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Play Again</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBUEXIT">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>480</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+	background-color: rgb(200, 11, 4);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(241, 12, 4);
+	
+}
+
+QPushButton:pressed
+{
+   
+	background-color: rgb(200, 11, 4);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>560</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(104, 104, 104);</string>
+     </property>
+     <property name="text">
+      <string>secret</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wwelcome" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="lbmainbg_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>901</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(255, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>layout2.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbtitle">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>170</y>
+       <width>451</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>36</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+     </property>
+     <property name="text">
+      <string>LOTTERY GAME</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbplayername">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>290</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(35, 234, 13);</string>
+     </property>
+     <property name="text">
+      <string>User name :</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lenameinput">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>300</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 198, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pblogin">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>400</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+   
+	background-color: rgb(0, 248, 32);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(166, 248, 34);
+	
+}
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>Log in</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbnewuser">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>400</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+   
+	background-color: rgb(0, 248, 32);
+}
+
+QPushButton:hover
+{
+   
+	background-color: rgb(166, 248, 34);
+	
+}
+QPushButton:pressed
+{
+   
+	background-color: rgb(0, 211, 0);
+	
+}</string>
+     </property>
+     <property name="text">
+      <string>New User</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblerror">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>340</y>
+       <width>381</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(226, 11, 4);</string>
+     </property>
+     <property name="text">
+      <string>Player with this user name does not exist!</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
